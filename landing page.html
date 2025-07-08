@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JavaScript Course Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; 
+      padding: 0 20px;
+      background: #f9f9f9;
+      color: #333;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.2rem;
+    }
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .images img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+    video {
+      display: block;
+      margin: 0 auto 2rem;
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #007acc;
+    }
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 1rem;
+    }
+    dl {
+      margin-left: 20px;
+      margin-bottom: 1rem;
+    }
+    dt {
+      font-weight: bold;
+      margin-top: 0.8rem;
+    }
+    dd {
+      margin-left: 1rem;
+      margin-bottom: 0.6rem;
+    }
+    .enroll {
+      display: block;
+      width: max-content;
+      margin: 2rem auto;
+      background-color: #007acc;
+      color: white;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .enroll:hover {
+      background-color: #005f99;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Master JavaScript: Beginner to Pro</h1>
+    <p>Your journey to becoming a JavaScript expert starts here!</p>
+  </header>
+
+  <section class="images">
+    <img src="https://via.placeholder.com/150x100?text=JS+Code" alt="JavaScript Code Example" />
+    <img src="https://via.placeholder.com/150x100?text=Web+App" alt="Web Application" />
+    <img src="https://via.placeholder.com/150x100?text=Learning" alt="Learning Illustration" />
+    <img src="https://via.placeholder.com/150x100?text=Projects" alt="Projects Showcase" />
+  </section>
+
+  <section class="intro-video">
+    <video controls poster="https://via.placeholder.com/640x360?text=Intro+Video+Poster">
+      <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm" type="video/webm" />
+      <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <section class="what-learn">
+    <h2>What You Will Learn</h2>
+    <ul>
+      <li>JavaScript syntax and fundamentals</li>
+      <li>Working with DOM and events</li>
+      <li>Asynchronous programming and Promises</li>
+      <li>Building interactive web applications</li>
+      <li>Debugging and best practices</li>
+      <li>ES6+ modern JavaScript features</li>
+    </ul>
+  </section>
+
+  <section class="course-schedule">
+    <h2>Course Schedule</h2>
+    <ol>
+      <li>Week 1: Introduction & Setup</li>
+      <li>Week 2: Variables, Data Types & Operators</li>
+      <li>Week 3: Functions and Scope</li>
+      <li>Week 4: DOM Manipulation</li>
+      <li>Week 5: Events & Event Handling</li>
+      <li>Week 6: Asynchronous JS (Callbacks, Promises, Async/Await)</li>
+      <li>Week 7: Advanced Topics & ES6+</li>
+      <li>Week 8: Final Project & Review</li>
+    </ol>
+  </section>
+
+  <section class="terms-concepts">
+    <h2>Key Terms and Concepts</h2>
+    <dl>
+      <dt>Variable</dt>
+      <dd>A named container for storing data values.</dd>
+      <dt>Function</dt>
+      <dd>A block of code designed to perform a particular task.</dd>
+      <dt>DOM (Document Object Model)</dt>
+      <dd>A programming interface for HTML and XML documents.</dd>
+      <dt>Event</dt>
+      <dd>An action or occurrence detected by the program (e.g., click, keypress).</dd>
+      <dt>Promise</dt>
+      <dd>An object representing the eventual completion or failure of an asynchronous operation.</dd>
+      <dt>ES6+</dt>
+      <dd>The latest versions of JavaScript with modern syntax and features.</dd>
+    </dl>
+  </section>
+
+  <a class="enroll" href="https://example.com/enroll" target="_blank" rel="noopener noreferrer">
+    Enroll Now
+  </a>
+
+</body>
+</html>
